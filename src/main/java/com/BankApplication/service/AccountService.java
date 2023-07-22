@@ -22,7 +22,9 @@ public class AccountService implements AccountServiceI {
 
 	@Override
 	public Account createacc(Account acc) {
-
+               
+		System.out.println("Your are Choose Saving Account Type");
+		
 		Account save = accountRepository.save(acc);
 
 		return save;
