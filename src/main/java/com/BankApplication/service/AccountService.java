@@ -22,6 +22,8 @@ public class AccountService implements AccountServiceI {
 
 	@Override
 	public Account createacc(Account acc) {
+		
+		System.out.println("Choose a Account Type");
 
 		Account save = accountRepository.save(acc);
 
