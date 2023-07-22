@@ -25,6 +25,9 @@ public class AccountService implements AccountServiceI {
 		
 		System.out.println("Choose a Account Type");
 
+               
+		System.out.println("Your are Choose Saving Account Type");
+		
 		Account save = accountRepository.save(acc);
 
 		return save;
